@@ -30,7 +30,7 @@ input[type=text] {
   font-family: 'Itim', cursive;
   background-color: transparent;
   color: white;
-  border: 2px solid white;
+  border: 5px solid white;
   border-radius: 4px;
   width: 400px;
   height: 48px;
@@ -52,7 +52,7 @@ input[type=text] {
   margin: auto;
 }
 
-.username-title {
+label {
   font-family: 'Itim', cursive;
   color: white;
   font-size: 32px;
@@ -114,6 +114,23 @@ input[type=text] {
   }
 }
 
-form {
+label,input {
     display: block;
 }
+
+input {
+    background-color: #fff;
+    margin-bottom: 1em;
+}
+
+input[type='submit'] {
+    font-family: 'Itim', cursive;
+    color: gray;
+    font-size: 32px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+

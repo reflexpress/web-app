@@ -1,25 +1,28 @@
 <html>
 <link rel="stylesheet" type="text/css" href="./stylesheets/index.css" media="screen" />
 <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
-<script src=""></script>
 
 <head>
   <title>reflexpress</title>
 </head>
 
 <body class="background">
-    <div class="center-content">
+    <div id="smiley-container" class="center-content">
         <img class="smiley" src="./images/reflexpress-logo-small-notext-darksmile.png" />
     </div>  
-    <div class="center-content">
+    <div id="form-container" class="hidden center-content">
         <form action="/" method="post">
-            <label for="uuid">UUID</label><input type="text" name="uuid" />
-            <label for="name">Button name</label><input type="text" name="name" />
-            <label for="recipient">Friend's username</label><input type="text" name="recipient" />
-            <label for="short">Messages or emojis (short press)</label><input type="text" name="short" />
-            <label for="long">Gifs search (long press)</label><input type="text" name="long" />
+            <label for="uuid">UUID:</label><input type="text" name="uuid" />
+            <label for="name">Button name:</label><input type="text" name="name" />
+            <label for="recipient">Friend's Telegram username:</label><input type="text" name="recipient" />
+            <label for="short">Messages or emojis (short press):</label><input type="text" name="short" />
+            <label for="long">Gifs search (long press):</label><input type="text" name="long" />
+            <center>
+                <input type="submit" value="SAVE" />
+            </center>
         </form>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
