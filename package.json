@@ -1,0 +1,26 @@
+{
+  "name": "web-app",
+  "version": "0.0.1",
+  "description": "Web app for reflexpress",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "jsonfile": "^2.4.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reflexpress/web-app.git"
+  },
+  "author": "Reflexpress",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reflexpress/web-app/issues"
+  },
+  "homepage": "https://github.com/reflexpress/web-app#readme"
+}
