@@ -16,7 +16,7 @@ var buttonConfig = {
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
-    extended: true;
+    extended: true,
 }));
 
 var router = express.Router();
